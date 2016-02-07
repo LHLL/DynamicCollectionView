@@ -14,6 +14,10 @@
 		BA92C1B11C626943002D8EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA92C1AF1C626943002D8EC9 /* LaunchScreen.storyboard */; };
 		BA92C1BC1C626943002D8EC9 /* ScrollTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92C1BB1C626943002D8EC9 /* ScrollTableViewTests.swift */; };
 		BA92C1C71C626943002D8EC9 /* ScrollTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92C1C61C626943002D8EC9 /* ScrollTableViewUITests.swift */; };
+		BA92C1D71C62A88A002D8EC9 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92C1D51C62A88A002D8EC9 /* PhotoCell.swift */; };
+		BA92C1D81C62A88A002D8EC9 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA92C1D61C62A88A002D8EC9 /* PhotoCell.xib */; };
+		BA92C1DC1C63A24D002D8EC9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92C1DB1C63A24D002D8EC9 /* DetailView.swift */; };
+		BA92C1DE1C63A27B002D8EC9 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA92C1DD1C63A27B002D8EC9 /* DetailView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA92C1A31C626943002D8EC9 /* ScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA92C1A31C626943002D8EC9 /* DynamicCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA92C1A61C626943002D8EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA92C1A81C626943002D8EC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA92C1AB1C626943002D8EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA92C1AD1C626943002D8EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA92C1B01C626943002D8EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA92C1B21C626943002D8EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA92C1B71C626943002D8EC9 /* ScrollTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA92C1B71C626943002D8EC9 /* DynamicCollectionView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCollectionView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA92C1BB1C626943002D8EC9 /* ScrollTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTableViewTests.swift; sourceTree = "<group>"; };
 		BA92C1BD1C626943002D8EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA92C1C21C626943002D8EC9 /* ScrollTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA92C1C21C626943002D8EC9 /* DynamicCollectionView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCollectionView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA92C1C61C626943002D8EC9 /* ScrollTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTableViewUITests.swift; sourceTree = "<group>"; };
 		BA92C1C81C626943002D8EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA92C1D51C62A88A002D8EC9 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		BA92C1D61C62A88A002D8EC9 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		BA92C1DB1C63A24D002D8EC9 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BA92C1DD1C63A27B002D8EC9 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,9 @@
 		BA92C19A1C626943002D8EC9 = {
 			isa = PBXGroup;
 			children = (
-				BA92C1A51C626943002D8EC9 /* ScrollTableView */,
-				BA92C1BA1C626943002D8EC9 /* ScrollTableViewTests */,
-				BA92C1C51C626943002D8EC9 /* ScrollTableViewUITests */,
+				BA92C1A51C626943002D8EC9 /* DynamicCollectionView */,
+				BA92C1BA1C626943002D8EC9 /* DynamicCollectionViewTests */,
+				BA92C1C51C626943002D8EC9 /* DynamicCollectionViewUITests */,
 				BA92C1A41C626943002D8EC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +95,81 @@
 		BA92C1A41C626943002D8EC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA92C1A31C626943002D8EC9 /* ScrollTableView.app */,
-				BA92C1B71C626943002D8EC9 /* ScrollTableViewTests.xctest */,
-				BA92C1C21C626943002D8EC9 /* ScrollTableViewUITests.xctest */,
+				BA92C1A31C626943002D8EC9 /* DynamicCollectionView.app */,
+				BA92C1B71C626943002D8EC9 /* DynamicCollectionView.xctest */,
+				BA92C1C21C626943002D8EC9 /* DynamicCollectionView.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA92C1A51C626943002D8EC9 /* ScrollTableView */ = {
+		BA92C1A51C626943002D8EC9 /* DynamicCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				BA92C1A61C626943002D8EC9 /* AppDelegate.swift */,
-				BA92C1A81C626943002D8EC9 /* ViewController.swift */,
-				BA92C1AA1C626943002D8EC9 /* Main.storyboard */,
-				BA92C1AD1C626943002D8EC9 /* Assets.xcassets */,
-				BA92C1AF1C626943002D8EC9 /* LaunchScreen.storyboard */,
-				BA92C1B21C626943002D8EC9 /* Info.plist */,
+				BA92C1E01C63ABDA002D8EC9 /* Controller */,
+				BA92C1DF1C63ABD3002D8EC9 /* View */,
+				BA92C1D41C626A6D002D8EC9 /* SupportingFiels */,
 			);
+			name = DynamicCollectionView;
 			path = ScrollTableView;
 			sourceTree = "<group>";
 		};
-		BA92C1BA1C626943002D8EC9 /* ScrollTableViewTests */ = {
+		BA92C1BA1C626943002D8EC9 /* DynamicCollectionViewTests */ = {
 			isa = PBXGroup;
 			children = (
 				BA92C1BB1C626943002D8EC9 /* ScrollTableViewTests.swift */,
 				BA92C1BD1C626943002D8EC9 /* Info.plist */,
 			);
+			name = DynamicCollectionViewTests;
 			path = ScrollTableViewTests;
 			sourceTree = "<group>";
 		};
-		BA92C1C51C626943002D8EC9 /* ScrollTableViewUITests */ = {
+		BA92C1C51C626943002D8EC9 /* DynamicCollectionViewUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BA92C1C61C626943002D8EC9 /* ScrollTableViewUITests.swift */,
 				BA92C1C81C626943002D8EC9 /* Info.plist */,
 			);
+			name = DynamicCollectionViewUITests;
 			path = ScrollTableViewUITests;
+			sourceTree = "<group>";
+		};
+		BA92C1D41C626A6D002D8EC9 /* SupportingFiels */ = {
+			isa = PBXGroup;
+			children = (
+				BA92C1AD1C626943002D8EC9 /* Assets.xcassets */,
+				BA92C1AF1C626943002D8EC9 /* LaunchScreen.storyboard */,
+				BA92C1B21C626943002D8EC9 /* Info.plist */,
+			);
+			name = SupportingFiels;
+			sourceTree = "<group>";
+		};
+		BA92C1DF1C63ABD3002D8EC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA92C1AA1C626943002D8EC9 /* Main.storyboard */,
+				BA92C1D51C62A88A002D8EC9 /* PhotoCell.swift */,
+				BA92C1D61C62A88A002D8EC9 /* PhotoCell.xib */,
+				BA92C1DB1C63A24D002D8EC9 /* DetailView.swift */,
+				BA92C1DD1C63A27B002D8EC9 /* DetailView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BA92C1E01C63ABDA002D8EC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA92C1A61C626943002D8EC9 /* AppDelegate.swift */,
+				BA92C1A81C626943002D8EC9 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA92C1A21C626943002D8EC9 /* ScrollTableView */ = {
+		BA92C1A21C626943002D8EC9 /* DynamicCollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA92C1CB1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "ScrollTableView" */;
+			buildConfigurationList = BA92C1CB1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "DynamicCollectionView" */;
 			buildPhases = (
 				BA92C19F1C626943002D8EC9 /* Sources */,
 				BA92C1A01C626943002D8EC9 /* Frameworks */,
@@ -140,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = ScrollTableView;
+			name = DynamicCollectionView;
 			productName = ScrollTableView;
-			productReference = BA92C1A31C626943002D8EC9 /* ScrollTableView.app */;
+			productReference = BA92C1A31C626943002D8EC9 /* DynamicCollectionView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA92C1B61C626943002D8EC9 /* ScrollTableViewTests */ = {
+		BA92C1B61C626943002D8EC9 /* DynamicCollectionViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA92C1CE1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "ScrollTableViewTests" */;
+			buildConfigurationList = BA92C1CE1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewTests" */;
 			buildPhases = (
 				BA92C1B31C626943002D8EC9 /* Sources */,
 				BA92C1B41C626943002D8EC9 /* Frameworks */,
@@ -158,14 +197,14 @@
 			dependencies = (
 				BA92C1B91C626943002D8EC9 /* PBXTargetDependency */,
 			);
-			name = ScrollTableViewTests;
+			name = DynamicCollectionViewTests;
 			productName = ScrollTableViewTests;
-			productReference = BA92C1B71C626943002D8EC9 /* ScrollTableViewTests.xctest */;
+			productReference = BA92C1B71C626943002D8EC9 /* DynamicCollectionView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BA92C1C11C626943002D8EC9 /* ScrollTableViewUITests */ = {
+		BA92C1C11C626943002D8EC9 /* DynamicCollectionViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA92C1D11C626943002D8EC9 /* Build configuration list for PBXNativeTarget "ScrollTableViewUITests" */;
+			buildConfigurationList = BA92C1D11C626943002D8EC9 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewUITests" */;
 			buildPhases = (
 				BA92C1BE1C626943002D8EC9 /* Sources */,
 				BA92C1BF1C626943002D8EC9 /* Frameworks */,
@@ -176,9 +215,9 @@
 			dependencies = (
 				BA92C1C41C626943002D8EC9 /* PBXTargetDependency */,
 			);
-			name = ScrollTableViewUITests;
+			name = DynamicCollectionViewUITests;
 			productName = ScrollTableViewUITests;
-			productReference = BA92C1C21C626943002D8EC9 /* ScrollTableViewUITests.xctest */;
+			productReference = BA92C1C21C626943002D8EC9 /* DynamicCollectionView.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA92C19E1C626943002D8EC9 /* Build configuration list for PBXProject "ScrollTableView" */;
+			buildConfigurationList = BA92C19E1C626943002D8EC9 /* Build configuration list for PBXProject "DynamicCollectionView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA92C1A21C626943002D8EC9 /* ScrollTableView */,
-				BA92C1B61C626943002D8EC9 /* ScrollTableViewTests */,
-				BA92C1C11C626943002D8EC9 /* ScrollTableViewUITests */,
+				BA92C1A21C626943002D8EC9 /* DynamicCollectionView */,
+				BA92C1B61C626943002D8EC9 /* DynamicCollectionViewTests */,
+				BA92C1C11C626943002D8EC9 /* DynamicCollectionViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA92C1D81C62A88A002D8EC9 /* PhotoCell.xib in Resources */,
 				BA92C1B11C626943002D8EC9 /* LaunchScreen.storyboard in Resources */,
 				BA92C1AE1C626943002D8EC9 /* Assets.xcassets in Resources */,
 				BA92C1AC1C626943002D8EC9 /* Main.storyboard in Resources */,
+				BA92C1DE1C63A27B002D8EC9 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA92C1A91C626943002D8EC9 /* ViewController.swift in Sources */,
+				BA92C1DC1C63A24D002D8EC9 /* DetailView.swift in Sources */,
+				BA92C1D71C62A88A002D8EC9 /* PhotoCell.swift in Sources */,
 				BA92C1A71C626943002D8EC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		BA92C1B91C626943002D8EC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA92C1A21C626943002D8EC9 /* ScrollTableView */;
+			target = BA92C1A21C626943002D8EC9 /* DynamicCollectionView */;
 			targetProxy = BA92C1B81C626943002D8EC9 /* PBXContainerItemProxy */;
 		};
 		BA92C1C41C626943002D8EC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA92C1A21C626943002D8EC9 /* ScrollTableView */;
+			target = BA92C1A21C626943002D8EC9 /* DynamicCollectionView */;
 			targetProxy = BA92C1C31C626943002D8EC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,7 +448,7 @@
 				INFOPLIST_FILE = ScrollTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynn.sitaCorp.ScrollTableView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicCollectionView;
 			};
 			name = Debug;
 		};
@@ -416,7 +459,7 @@
 				INFOPLIST_FILE = ScrollTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynn.sitaCorp.ScrollTableView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicCollectionView;
 			};
 			name = Release;
 		};
@@ -427,8 +470,8 @@
 				INFOPLIST_FILE = ScrollTableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynn.sitaCorp.ScrollTableViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTableView.app/ScrollTableView";
+				PRODUCT_NAME = DynamicCollectionView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCollectionView.app/DynamicCollectionView";
 			};
 			name = Debug;
 		};
@@ -439,8 +482,8 @@
 				INFOPLIST_FILE = ScrollTableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynn.sitaCorp.ScrollTableViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTableView.app/ScrollTableView";
+				PRODUCT_NAME = DynamicCollectionView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCollectionView.app/DynamicCollectionView";
 			};
 			name = Release;
 		};
@@ -450,7 +493,7 @@
 				INFOPLIST_FILE = ScrollTableViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynn.sitaCorp.ScrollTableViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicCollectionView;
 				TEST_TARGET_NAME = ScrollTableView;
 				USES_XCTRUNNER = YES;
 			};
@@ -462,7 +505,7 @@
 				INFOPLIST_FILE = ScrollTableViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynn.sitaCorp.ScrollTableViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicCollectionView;
 				TEST_TARGET_NAME = ScrollTableView;
 				USES_XCTRUNNER = YES;
 			};
@@ -471,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA92C19E1C626943002D8EC9 /* Build configuration list for PBXProject "ScrollTableView" */ = {
+		BA92C19E1C626943002D8EC9 /* Build configuration list for PBXProject "DynamicCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA92C1C91C626943002D8EC9 /* Debug */,
@@ -480,29 +523,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA92C1CB1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "ScrollTableView" */ = {
+		BA92C1CB1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "DynamicCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA92C1CC1C626943002D8EC9 /* Debug */,
 				BA92C1CD1C626943002D8EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BA92C1CE1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "ScrollTableViewTests" */ = {
+		BA92C1CE1C626943002D8EC9 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA92C1CF1C626943002D8EC9 /* Debug */,
 				BA92C1D01C626943002D8EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BA92C1D11C626943002D8EC9 /* Build configuration list for PBXNativeTarget "ScrollTableViewUITests" */ = {
+		BA92C1D11C626943002D8EC9 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA92C1D21C626943002D8EC9 /* Debug */,
 				BA92C1D31C626943002D8EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

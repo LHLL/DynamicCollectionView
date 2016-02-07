@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA92C1A21C626943002D8EC9"
-               BuildableName = "ScrollTableView.app"
-               BlueprintName = "ScrollTableView"
-               ReferencedContainer = "container:ScrollTableView.xcodeproj">
+               BuildableName = "DynamicCollectionView.app"
+               BlueprintName = "DynamicCollectionView"
+               ReferencedContainer = "container:DynamicCollectionView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA92C1B61C626943002D8EC9"
-               BuildableName = "ScrollTableViewTests.xctest"
-               BlueprintName = "ScrollTableViewTests"
-               ReferencedContainer = "container:ScrollTableView.xcodeproj">
+               BuildableName = "DynamicCollectionView.xctest"
+               BlueprintName = "DynamicCollectionViewTests"
+               ReferencedContainer = "container:DynamicCollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA92C1C11C626943002D8EC9"
-               BuildableName = "ScrollTableViewUITests.xctest"
-               BlueprintName = "ScrollTableViewUITests"
-               ReferencedContainer = "container:ScrollTableView.xcodeproj">
+               BuildableName = "DynamicCollectionView.xctest"
+               BlueprintName = "DynamicCollectionViewUITests"
+               ReferencedContainer = "container:DynamicCollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA92C1A21C626943002D8EC9"
-            BuildableName = "ScrollTableView.app"
-            BlueprintName = "ScrollTableView"
-            ReferencedContainer = "container:ScrollTableView.xcodeproj">
+            BuildableName = "DynamicCollectionView.app"
+            BlueprintName = "DynamicCollectionView"
+            ReferencedContainer = "container:DynamicCollectionView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA92C1A21C626943002D8EC9"
-            BuildableName = "ScrollTableView.app"
-            BlueprintName = "ScrollTableView"
-            ReferencedContainer = "container:ScrollTableView.xcodeproj">
+            BuildableName = "DynamicCollectionView.app"
+            BlueprintName = "DynamicCollectionView"
+            ReferencedContainer = "container:DynamicCollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA92C1A21C626943002D8EC9"
-            BuildableName = "ScrollTableView.app"
-            BlueprintName = "ScrollTableView"
-            ReferencedContainer = "container:ScrollTableView.xcodeproj">
+            BuildableName = "DynamicCollectionView.app"
+            BlueprintName = "DynamicCollectionView"
+            ReferencedContainer = "container:DynamicCollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
